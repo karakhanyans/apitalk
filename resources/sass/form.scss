@@ -1,0 +1,55 @@
+form {
+    width: 320px;
+}
+
+.form-group {
+    margin-bottom: 30px;
+    height: 71px;
+
+
+    .control-label {
+        display: block;
+        width: 100%;
+        font-weight: bold
+    }
+
+    .form-control {
+        float: left;
+        width: 100%;
+        padding: 10px;
+        border-radius: 4px;
+        border: 1px solid #ccc;
+        outline: none;
+        font-size: 18px;
+        box-sizing: border-box;
+    }
+
+    .form-control.is-invalid, .form-group.has-error {
+        border: 1px solid #dc3545;
+    }
+}
+
+.has-error {
+    .form-control {
+        border: 1px solid #dc3545 !important;
+    }
+}
+
+.btn {
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    background: #007bff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+    float: left;
+    outline: none;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.btn-danger {
+    background: #dc3545;
+}

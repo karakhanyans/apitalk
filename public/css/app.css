@@ -1,0 +1,196 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito);.navbar {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.9);
+  color: #fff;
+  padding: 24px;
+  box-sizing: border-box;
+  height: 77px;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar a.navbar-brand {
+  font-size: 27px;
+  float: left;
+}
+
+.navbar #navbarSupportedContent {
+  margin-left: 100px;
+}
+
+.navbar #navbarSupportedContent .navbar-nav {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  margin-top: 6px;
+}
+
+.navbar #navbarSupportedContent .navbar-nav li {
+  float: left;
+  padding: 0;
+  margin-right: 20px;
+}
+
+.navbar .menu-for-auth {
+  float: right;
+}
+
+.navbar .logged-menu {
+  float: left;
+  margin-left: 100px;
+}
+
+.navbar .logged-menu .logout {
+  float: right;
+}
+
+form {
+  width: 320px;
+}
+
+.form-group {
+  margin-bottom: 30px;
+  height: 71px;
+}
+
+.form-group .control-label {
+  display: block;
+  width: 100%;
+  font-weight: bold;
+}
+
+.form-group .form-control {
+  float: left;
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  outline: none;
+  font-size: 18px;
+  box-sizing: border-box;
+}
+
+.form-group .form-control.is-invalid,
+.form-group .form-group.has-error {
+  border: 1px solid #dc3545;
+}
+
+.has-error .form-control {
+  border: 1px solid #dc3545 !important;
+}
+
+.btn {
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  background: #007bff;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  text-decoration: none;
+  float: left;
+  outline: none;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+.btn-danger {
+  background: #dc3545;
+}
+
+.search-input {
+  width: 200px !important;
+}
+
+.pagination {
+  float: right;
+}
+
+.table {
+  margin-top: 30px;
+  width: 100%;
+  overflow: auto;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.table thead th {
+  vertical-align: bottom;
+  border-bottom: 2px solid #dee2e6;
+}
+
+.table td {
+  padding: 0.75rem;
+  vertical-align: top;
+  border-top: 1px solid #dee2e6;
+}
+
+.table tr {
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Nunito, sans-serif;
+}
+
+body .error {
+  color: red;
+}
+
+body .success {
+  color: green;
+}
+
+body .invalid-feedback {
+  margin-bottom: 10px;
+  margin-top: 5px;
+  float: left;
+  width: 100%;
+}
+
+body .invalid-feedback .error {
+  margin: 0;
+  padding: 0;
+}
+
+body .content {
+  width: 960px;
+  margin: 0 auto;
+}
+
+@media (max-width: 960px) {
+  .content {
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+}
+
+@media (max-width: 500px) {
+  .logged-menu {
+    margin-left: 20px !important;
+  }
+}
+
+@media (max-width: 320px) {
+  .navbar-brand {
+    font-size: 19px !important;
+    margin-top: 5px;
+  }
+
+  #navbarSupportedContent {
+    float: right !important;
+    margin: 0 !important;
+  }
+
+  form {
+    width: 100% !important;
+  }
+}
+

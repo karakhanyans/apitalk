@@ -1,0 +1,68 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+// Variables
+@import 'variables';
+@import 'header';
+@import 'form';
+@import 'store/list';
+@import 'table';
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Nunito, sans-serif;
+
+    .error {
+        color: red;
+    }
+
+    .success {
+        color: green
+    }
+
+    .invalid-feedback {
+        margin-bottom: 10px;
+        margin-top: 5px;
+        float: left;
+        width: 100%;
+
+        .error {
+            margin: 0;
+            padding: 0;
+        }
+    }
+
+    .content {
+        width: 960px;
+        margin: 0 auto;
+    }
+}
+
+@media(max-width: 960px) {
+    .content {
+        width: 100% !important;
+        margin: 0 !important;
+        padding: 0 20px;
+        box-sizing: border-box;
+    }
+}
+
+@media(max-width: 500px) {
+    .logged-menu {
+        margin-left: 20px !important;
+    }
+}
+
+@media(max-width: 320px) {
+    .navbar-brand {
+        font-size: 19px !important;
+        margin-top: 5px;
+    }
+    #navbarSupportedContent {
+        float: right !important;
+        margin: 0 !important;
+    }
+    form {
+        width: 100% !important;
+    }
+}
