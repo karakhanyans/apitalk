@@ -2,6 +2,6 @@ import axios from 'axios'
 
 export default ()=>{
     return axios.create({
-        baseURL: 'http://apitalk.loc/api/'
+        baseURL: 'https://apitalk.sergeykarakhanyan.com/api/'
     })
 }
